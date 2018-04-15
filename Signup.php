@@ -10,7 +10,7 @@ if (isset($_POST["Signup"])) {
   $username = mysqli_real_escape_string($connectdb, $username);
   $password = mysqli_real_escape_string($connectdb, $password);
 
-  $query = "INSERT INTO Account (username,password) VALUES('$username', '$password')";
+  $query = "INSERT INTO akun (username,password) VALUES('$username', '$password')";
   $result = mysqli_query($connectdb, $query);
 
   if ($result) {

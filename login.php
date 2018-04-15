@@ -23,7 +23,7 @@ if (isset($_POST["submit"])) {
   $username = mysqli_real_escape_string($connectdb, $username);
   $password = mysqli_real_escape_string($connectdb, $password);
 
-  $query = "SELECT * FROM Account WHERE username = '$username' AND password = '$password'";
+  $query = "SELECT * FROM akun WHERE username = '$username' AND password = '$password'";
   $result = mysqli_query($connectdb, $query);
 
   if (mysqli_num_rows($result) == 0) {

@@ -112,7 +112,7 @@ $sum = 0;
         <tr>
           <td><img style="width:90px; height:90px;" src="img/<?php echo $data["link"]; ?>"></td>
           <td><?php echo $data["nama"]; ?></td>
-          <td style="color:red;">Rp. <?php echo $data["harga"]; ?>,00</td>
+          <td style="color:red;">Rs. <?php echo $data["harga"]; ?>,00</td>
           <td>
 
               <form action="cartdel.php" method="post" >
@@ -128,7 +128,7 @@ $sum = 0;
     <tr>
       <td>Total Price</td>
       <td><?php echo mysqli_num_rows($result); ?></td>
-      <td>Rp. <?php echo number_format($sum, 2); ?></td>
+      <td>Rs. <?php echo number_format($sum, 2); ?></td>
       <td></td>
     </tr>
   </table></center>

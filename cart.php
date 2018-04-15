@@ -60,9 +60,9 @@ if (isset($_POST["cart"])) {
     <p>Rates as per government</p>
     <form action="tampil.php" role="form" method="post" class="form-inline" >
       <div class="input-group">
-        <input name="nama" type="name" class="form-control" placeholder="Cari barangnya disini gan" size="50">
+        <input name="nama" type="name" class="form-control" placeholder="Search" size="50">
       <div class="input-group-btn">
-        <button class="btn btn-danger" type="submit" name="submit" value="submit">Cari</button>
+        <button class="btn btn-danger" type="submit" name="submit" value="submit">Search</button>
       </div>
       </div>
     </form>
@@ -90,9 +90,9 @@ $sum = 0;
 			<li><a class="active" href="amajon.php">Home</a></li>
 			<li><a href="promo.php">Promo</a></li>
 			<li><a href="best.php">Best Seller</a></li>
-			<li><a href="add.php">Barang saya</a></li>
-			<li><a href="akun.php">Akun</a></li>
-			<li><a href="chat.php">AmajonBOT</a></li>
+			<li><a href="add.php">my Things</a></li>
+			<li><a href="akun.php">Account</a></li>
+			<li><a href="chat.php">Chat</a></li>
 			<li><a class="active b" href="cart.php"><span class="glyphicon glyphicon-shopping-cart"></span><span>&emsp;<b><?php echo "(".mysqli_num_rows($result) ." item)"; ?></b></span></a></li>
 		<ul>
 	</div>
@@ -117,7 +117,7 @@ $sum = 0;
 
               <form action="cartdel.php" method="post" >
               <input type="hidden" name="link" value="<?php echo $data["link"]; ?>">
-              <button type="submit" name="cartdel" value="hapus">Hapus</button>
+              <button type="submit" name="cartdel" value="hapus">Cancel</button>
               </form>
             </td>
         </tr>
@@ -135,7 +135,7 @@ $sum = 0;
   </div>
 <div class="clearfix">
 </div>
-    <center><button  type="button" name="cartdel" style="width:150px"><b>Beli Sekarang<b></button></center>
+    <center><button  type="button" name="cartdel" style="width:150px"><b>Buy Now<b></button></center>
 
   <div class="clearfix"></div>
   <div class="footer">

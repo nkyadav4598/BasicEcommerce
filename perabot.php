@@ -56,18 +56,12 @@ include("session.php");
 	</div>
 	<div class="sidebar">
 		<ul>
-			<li><a class="active">Kategori</a></li>
+      <li><a class="active">Category</a></li>
       <li><a href="home.php">Home</a></li>
-			<li><a href="staples.php">Grocery and Staples</a></li>
-			<li><a href="perabot.php">Furniture</a></li>
-			<li><a href="hobby.php">Hobby</a></li>
-			<li><a href="mobil.php">Mobil</a></li>
-			<li><a href="Beverages.php">Beverages</a></li>
-			<li><a href="sport.php">Sport</a></li>
-      <li><a href="home.php">Home</a></li>
-		   <li><a href="hobby.php">Hobby</a></li>
-			<li><a href="perabot.php">Furniture</a></li>
-			<li><a href="mobil.php">Mobil</a></li>
+      <li><a href="staples.php">Grocery and Staples</a></li>
+      <li><a href="Beverages.php">Beverages</a></li>
+      <li><a href="Breakfast and Dairy.php">Breakfast and Dairy</a></li>
+       <li><a href="Fruits and Vegetables.php">Fruits and Vegetables</a></li>
 		</ul>
 	</div>
 </div>

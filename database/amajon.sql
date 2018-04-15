@@ -66,7 +66,7 @@ INSERT INTO `best` (`num`, `nama`, `harga`, `link`) VALUES
 (4, 'KursiiMaroon', 5350000, 'best4.jpg'),
 (5, 'KurrsiKayu', 257000, 'best5.png'),
 (6, 'HighHeelHitam', 1500000, 'best6.jpg'),
-(7, 'BeveragesSportAdidas', 500000, 'best7.jpeg'),
+(7, 'BeveragesBreakfast and DairyAdidas', 500000, 'best7.jpeg'),
 (8, 'BolaWorldCup2014', 450000, 'best8.jpg'),
 (9, 'DCSuperHero', 50000, 'best9.jpg'),
 (10, 'SkyLander', 450000, 'best10.jpg'),
@@ -122,10 +122,10 @@ INSERT INTO `chat` (`chat`) VALUES
 -- --------------------------------------------------------
 
 --
--- Table structure for table `hobby`
+-- Table structure for table `Fruits and Vegetables`
 --
 
-CREATE TABLE `hobby` (
+CREATE TABLE `Fruits and Vegetables` (
   `num` int(11) NOT NULL,
   `nama` varchar(50) DEFAULT NULL,
   `harga` bigint(20) DEFAULT NULL,
@@ -133,20 +133,20 @@ CREATE TABLE `hobby` (
 ) ENGINE=InnoDB DEFAULT CHARSET=latin1;
 
 --
--- Dumping data for table `hobby`
+-- Dumping data for table `Fruits and Vegetables`
 --
 
-INSERT INTO `hobby` (`num`, `nama`, `harga`, `link`) VALUES
-(1, 'ToyStory', 200000, 'hobby1.jpg'),
-(2, 'DCSuperHero', 50000, 'hobby2.jpg'),
-(3, 'SkyLander', 210000, 'hobby3.jpg'),
-(4, 'KillLaKill', 325000, 'hobby4.jpg'),
-(5, 'WinnieThePooh', 33000, 'hobby5.jpg'),
-(6, 'BatmanAndSuperman', 450000, 'hobby6.jpg'),
-(7, 'Starwars', 401000, 'hobby7.jpg'),
-(8, 'Wonderwoman', 450000, 'hobby8.jpg'),
-(9, 'HarryPotter', 140000, 'hobby9.jpg'),
-(10, 'Zartan', 43000, 'hobby10.jpg');
+INSERT INTO `Fruits and Vegetables` (`num`, `nama`, `harga`, `link`) VALUES
+(1, 'ToyStory', 200000, 'Fruits and Vegetables1.jpg'),
+(2, 'DCSuperHero', 50000, 'Fruits and Vegetables2.jpg'),
+(3, 'SkyLander', 210000, 'Fruits and Vegetables3.jpg'),
+(4, 'KillLaKill', 325000, 'Fruits and Vegetables4.jpg'),
+(5, 'WinnieThePooh', 33000, 'Fruits and Vegetables5.jpg'),
+(6, 'BatmanAndSuperman', 450000, 'Fruits and Vegetables6.jpg'),
+(7, 'Starwars', 401000, 'Fruits and Vegetables7.jpg'),
+(8, 'Wonderwoman', 450000, 'Fruits and Vegetables8.jpg'),
+(9, 'HarryPotter', 140000, 'Fruits and Vegetables9.jpg'),
+(10, 'Zartan', 43000, 'Fruits and Vegetables10.jpg');
 
 -- --------------------------------------------------------
 
@@ -326,16 +326,16 @@ INSERT INTO `Beverages` (`num`, `nama`, `harga`, `link`) VALUES
 (4, 'BeveragesDC', 178000, 'Beverages4.jpg'),
 (5, 'HighHeel', 1300000, 'Beverages5.jpg'),
 (6, 'HighHeelHitam', 1500000, 'Beverages6.jpg'),
-(7, 'BeveragesSportAdidas', 500000, 'Beverages7.jpeg'),
+(7, 'BeveragesBreakfast and DairyAdidas', 500000, 'Beverages7.jpeg'),
 (8, 'BeveragesAirJordan', 405000, 'Beverages8.jpg');
 
 -- --------------------------------------------------------
 
 --
--- Table structure for table `sport`
+-- Table structure for table `Breakfast and Dairy`
 --
 
-CREATE TABLE `sport` (
+CREATE TABLE `Breakfast and Dairy` (
   `num` int(11) NOT NULL,
   `nama` varchar(50) DEFAULT NULL,
   `harga` bigint(20) DEFAULT NULL,
@@ -343,22 +343,22 @@ CREATE TABLE `sport` (
 ) ENGINE=InnoDB DEFAULT CHARSET=latin1;
 
 --
--- Dumping data for table `sport`
+-- Dumping data for table `Breakfast and Dairy`
 --
 
-INSERT INTO `sport` (`num`, `nama`, `harga`, `link`) VALUES
-(1, 'SarungTangan', 257000, 'sport1.jpg'),
-(2, 'RacketA1', 350000, 'sport2.jpg'),
-(3, 'RacketA2', 121000, 'sport3.jpg'),
-(4, 'RacketA5', 1780000, 'sport4.jpg'),
-(5, 'SetRacket', 3300000, 'sport5.jpg'),
-(6, 'BolaWorldCup2014', 4500000, 'sport6.jpg'),
-(7, 'BolaNike', 500000, 'sport7.jpg'),
-(8, 'BolaAdidas', 405000, 'sport8.jpg'),
-(9, 'BolaNikeOmni', 3450000, 'sport9.jpg'),
-(10, 'BolaNikeT90', 1730000, 'sport10.jpg'),
-(11, 'PumaBarcelona', 430000, 'sport11.jpg'),
-(12, 'AmericanBallr', 630000, 'sport12.png');
+INSERT INTO `Breakfast and Dairy` (`num`, `nama`, `harga`, `link`) VALUES
+(1, 'SarungTangan', 257000, 'Breakfast and Dairy1.jpg'),
+(2, 'RacketA1', 350000, 'Breakfast and Dairy2.jpg'),
+(3, 'RacketA2', 121000, 'Breakfast and Dairy3.jpg'),
+(4, 'RacketA5', 1780000, 'Breakfast and Dairy4.jpg'),
+(5, 'SetRacket', 3300000, 'Breakfast and Dairy5.jpg'),
+(6, 'BolaWorldCup2014', 4500000, 'Breakfast and Dairy6.jpg'),
+(7, 'BolaNike', 500000, 'Breakfast and Dairy7.jpg'),
+(8, 'BolaAdidas', 405000, 'Breakfast and Dairy8.jpg'),
+(9, 'BolaNikeOmni', 3450000, 'Breakfast and Dairy9.jpg'),
+(10, 'BolaNikeT90', 1730000, 'Breakfast and Dairy10.jpg'),
+(11, 'PumaBarcelona', 430000, 'Breakfast and Dairy11.jpg'),
+(12, 'AmericanBallr', 630000, 'Breakfast and Dairy12.png');
 
 --
 -- Indexes for dumped tables
@@ -383,9 +383,9 @@ ALTER TABLE `cart`
   ADD PRIMARY KEY (`ID`);
 
 --
--- Indexes for table `hobby`
+-- Indexes for table `Fruits and Vegetables`
 --
-ALTER TABLE `hobby`
+ALTER TABLE `Fruits and Vegetables`
   ADD PRIMARY KEY (`num`);
 
 --
@@ -425,9 +425,9 @@ ALTER TABLE `Beverages`
   ADD PRIMARY KEY (`num`);
 
 --
--- Indexes for table `sport`
+-- Indexes for table `Breakfast and Dairy`
 --
-ALTER TABLE `sport`
+ALTER TABLE `Breakfast and Dairy`
   ADD PRIMARY KEY (`num`);
 
 --
@@ -450,9 +450,9 @@ ALTER TABLE `best`
 ALTER TABLE `cart`
   MODIFY `ID` int(11) NOT NULL AUTO_INCREMENT, AUTO_INCREMENT=13;
 --
--- AUTO_INCREMENT for table `hobby`
+-- AUTO_INCREMENT for table `Fruits and Vegetables`
 --
-ALTER TABLE `hobby`
+ALTER TABLE `Fruits and Vegetables`
   MODIFY `num` int(11) NOT NULL AUTO_INCREMENT, AUTO_INCREMENT=11;
 --
 -- AUTO_INCREMENT for table `mobil`
@@ -480,9 +480,9 @@ ALTER TABLE `promo`
 ALTER TABLE `Beverages`
   MODIFY `num` int(11) NOT NULL AUTO_INCREMENT, AUTO_INCREMENT=9;
 --
--- AUTO_INCREMENT for table `sport`
+-- AUTO_INCREMENT for table `Breakfast and Dairy`
 --
-ALTER TABLE `sport`
+ALTER TABLE `Breakfast and Dairy`
   MODIFY `num` int(11) NOT NULL AUTO_INCREMENT, AUTO_INCREMENT=13;
 /*!40101 SET CHARACTER_SET_CLIENT=@OLD_CHARACTER_SET_CLIENT */;
 /*!40101 SET CHARACTER_SET_RESULTS=@OLD_CHARACTER_SET_RESULTS */;

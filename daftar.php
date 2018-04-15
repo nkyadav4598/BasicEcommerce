@@ -1,6 +1,6 @@
 
 <?php
-if (isset($_POST["daftar"])) {
+if (isset($_POST["Signup"])) {
 
   $username = htmlentities(strip_tags(trim($_POST["username"])));
   $password = htmlentities(strip_tags(trim($_POST["password"])));
@@ -10,7 +10,7 @@ if (isset($_POST["daftar"])) {
   $username = mysqli_real_escape_string($connectdb, $username);
   $password = mysqli_real_escape_string($connectdb, $password);
 
-  $query = "INSERT INTO akun (username,password) VALUES('$username', '$password')";
+  $query = "INSERT INTO Account (username,password) VALUES('$username', '$password')";
   $result = mysqli_query($connectdb, $query);
 
   if ($result) {
@@ -81,7 +81,7 @@ button {
 <h2 style="text-align:center">Register</h2>
 <center>
 <div style="width:500px">
-<form action="daftar.php" method="post" style="border:1px solid #ccc">
+<form action="Signup.php" method="post" style="border:1px solid #ccc">
   <div class="container">
     <label><b>Username</b></label>
     <input type="text" placeholder="Enter Username" name="username"   value="<?php echo $username; ?>" required>
@@ -92,7 +92,7 @@ button {
 
     <div class="clearfix">
       <button type="button" class="cancelbtn">Cancel</button>
-      <button type="submit" class="signupbtn" name="daftar" value="daftar">Singup</button>
+      <button type="submit" class="signupbtn" name="Signup" value="Signup">Singup</button>
     </div>
   </div>
 </form>

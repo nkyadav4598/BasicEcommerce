@@ -91,7 +91,7 @@ $sum = 0;
 			<li><a href="promo.php">Promo</a></li>
 			<li><a href="best.php">Best Seller</a></li>
 			<li><a href="add.php">my Things</a></li>
-			<li><a href="akun.php">Account</a></li>
+			<li><a href="Account.php">Account</a></li>
 			<li><a href="chat.php">Chat</a></li>
 			<li><a class="active b" href="cart.php"><span class="glyphicon glyphicon-shopping-cart"></span><span>&emsp;<b><?php echo "(".mysqli_num_rows($result) ." item)"; ?></b></span></a></li>
 		<ul>

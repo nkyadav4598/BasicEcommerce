@@ -3,7 +3,7 @@
 -- http://www.phpmyadmin.net
 --
 -- Host: 127.0.0.1
--- Generation Time: Jul 05, 2017 at 09:50 AM
+-- Generation Time: Jul 05, 2018 at 09:50 AM
 -- Server version: 10.1.19-MariaDB
 -- PHP Version: 5.5.38
 
@@ -23,20 +23,20 @@ SET time_zone = "+00:00";
 -- --------------------------------------------------------
 
 --
--- Table structure for table `akun`
+-- Table structure for table `Account`
 --
 
-CREATE TABLE `akun` (
+CREATE TABLE `Account` (
   `num` int(11) NOT NULL,
   `username` varchar(50) DEFAULT NULL,
   `password` varchar(30) DEFAULT NULL
 ) ENGINE=InnoDB DEFAULT CHARSET=latin1;
 
 --
--- Dumping data for table `akun`
+-- Dumping data for table `Account`
 --
 
-INSERT INTO `akun` (`num`, `username`, `password`) VALUES
+INSERT INTO `Account` (`num`, `username`, `password`) VALUES
 (1, 'william1099', 'william1099'),
 (2, 'test', 'test123'),
 (3, 'admin', 'admin'),
@@ -115,7 +115,7 @@ INSERT INTO `chat` (`chat`) VALUES
 ('hai'),
 ('hai'),
 ('tanggal'),
-('05 07 2017'),
+('05 07 2018'),
 ('nama'),
 ('Namaku Amajon BOT :)');
 
@@ -365,9 +365,9 @@ INSERT INTO `sport` (`num`, `nama`, `harga`, `link`) VALUES
 --
 
 --
--- Indexes for table `akun`
+-- Indexes for table `Account`
 --
-ALTER TABLE `akun`
+ALTER TABLE `Account`
   ADD PRIMARY KEY (`num`);
 
 --
@@ -435,9 +435,9 @@ ALTER TABLE `sport`
 --
 
 --
--- AUTO_INCREMENT for table `akun`
+-- AUTO_INCREMENT for table `Account`
 --
-ALTER TABLE `akun`
+ALTER TABLE `Account`
   MODIFY `num` int(11) NOT NULL AUTO_INCREMENT, AUTO_INCREMENT=5;
 --
 -- AUTO_INCREMENT for table `best`

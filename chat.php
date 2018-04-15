@@ -49,7 +49,7 @@ if (isset($_POST["submit"])) {
       <?php
       if (!isset($_SESSION["username"])) {
           echo "<p style='text-align:center; display:inline-block' onclick='kelogin()'>Login &nbsp; |</p>
-          <p style='text-align:center; display:inline-block' onclick='kedaftar()'>&nbsp; Daftar</p>";
+          <p style='text-align:center; display:inline-block' onclick='keSignup()'>&nbsp; Signup</p>";
       }
       else {
           echo "<p style='text-align:center; display:inline-block'>Selamat Datang ";

@@ -13,7 +13,7 @@ else {
 $query = "CREATE TABLE chat(chat text)";
 $result = mysqli_query($connectdb, $query);
 if (!$result) die("Query ERROR - ".mysqli_errno($connectdb)."<br>".mysqli_error($connectdb));
-else echo "tabel akun berhasil dibuat <br>";
+else echo "tabel Account berhasil dibuat <br>";
 $query = "INSERT INTO chat VALUES('Hai :)')";
 $result - mysqli_query($connectdb, $query);
 if (!$result) die("Query ERROR - ".mysqli_errno($connectdb)."<br>".mysqli_error($connectdb));

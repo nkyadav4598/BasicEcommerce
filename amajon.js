@@ -24,8 +24,8 @@ function ubah(x) {
 function kelogin() {
   window.location.href = "login.php";
 }
-function kedaftar() {
-  window.location.href = "daftar.php";
+function keSignup() {
+  window.location.href = "Signup.php";
 }
 function kelogout() {
   window.location.href = "logout.php";

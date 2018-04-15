@@ -30,7 +30,7 @@ include("session.php");
       <?php
       if (!isset($_SESSION["username"])) {
           echo "<p style='text-align:center; display:inline-block' onclick='kelogin()'>Login &nbsp; |</p>
-          <p style='text-align:center; display:inline-block' onclick='kedaftar()'>&nbsp; Daftar</p>";
+          <p style='text-align:center; display:inline-block' onclick='keSignup()'>&nbsp; Signup</p>";
       }
       else {
           echo "<p style='text-align:center; display:inline-block'>Selamat Datang ";
@@ -48,7 +48,7 @@ include("session.php");
 			<li><a href="promo.php">Promo</a></li>
 			<li><a href="best.php">Best Seller</a></li>
 			<li><a href="add.php">My things</a></li>
-			<li><a href="akun.php">Account</a></li>
+			<li><a href="Account.php">Account</a></li>
 			<li><a href="chat.php">Chat</a></li>
 			<li><a class="active b" href="cart.php"><span class="glyphicon glyphicon-shopping-cart"></span></a></li>
 		<ul>

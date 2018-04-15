@@ -42,8 +42,8 @@ else {
 <div class="container-fluid">
 
   <div class="jumbotron">
-    <h1> Amajon.com</h1>
-    <p>Tempat Jual Beli Aman dan Terpercaya</p>
+    <h1> eRation</h1>
+    <p>Rates as per government</p>
     <form action="tampil.php" role="form" method="post" class="form-inline" >
       <div class="input-group">
         <input name="nama" type="name" class="form-control" placeholder="Cari barangnya disini gan" size="50">
@@ -55,7 +55,7 @@ else {
       <?php
       if (!isset($_SESSION["username"])) {
           echo "<p style='text-align:center; display:inline-block' onclick='kelogin()'>Login &nbsp; |</p>
-          <p style='text-align:center; display:inline-block' onclick='kedaftar()'>&nbsp; Daftar</p>";
+          <p style='text-align:center; display:inline-block' onclick='keSignup()'>&nbsp; Signup</p>";
       }
       else {
           echo "<p style='text-align:center; display:inline-block'>Selamat Datang ";
@@ -72,9 +72,9 @@ else {
 			<li><a class="active" href="amajon.php">Home</a></li>
 			<li><a href="promo.php">Promo</a></li>
 			<li><a href="best.php">Best Seller</a></li>
-			<li><a href="add.php">Barang saya</a></li>
-			<li><a href="akun.php">Akun</a></li>
-			<li><a href="chat.php">AmajonBOT</a></li>
+			<li><a href="add.php">My Things</a></li>
+			<li><a href="Account.php">Account</a></li>
+			<li><a href="chat.php">Chat</a></li>
 			<li><a class="active b" href="cart.php"><span class="glyphicon glyphicon-shopping-cart"></span></a></li>
 		<ul>
 	</div>
@@ -115,7 +115,7 @@ else {
   		<a href="#">3</a>
   		<a href="#">&raquo;</a>
   	</div>
-  	<p>&copy; 2017 |  Theme by William </p>
+  	<p>&copy; 2018 |  eRation </p>
   </div>
   </body>
   </html>

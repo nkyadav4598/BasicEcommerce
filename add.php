@@ -67,7 +67,7 @@ if (isset($_POST["submit"])) {
 
   <div class="jumbotron">
   	<h1> eRation </h1>
-  	<p>Tempat Jual Beli Aman dan Terpercaya</p>
+  	<p>Rates as per government</p>
   	<form action="tampil.php" role="form" method="post" class="form-inline" >
   		<div class="input-group">
   			<input name="nama" type="name" class="form-control" placeholder="Cari barangnya disini gan" size="50">
@@ -79,7 +79,7 @@ if (isset($_POST["submit"])) {
       <?php
       if (!isset($_SESSION["username"])) {
           echo "<p style='text-align:center; display:inline-block' onclick='kelogin()'>Login &nbsp; |</p>
-          <p style='text-align:center; display:inline-block' onclick='kedaftar()'>&nbsp; Daftar</p>";
+          <p style='text-align:center; display:inline-block' onclick='keSignup()'>&nbsp; Signup</p>";
       }
       else {
           echo "<p style='text-align:center; display:inline-block'>Selamat Datang ";
@@ -94,9 +94,9 @@ if (isset($_POST["submit"])) {
 			<li><a class="active" href="amajon.php">Home</a></li>
 			<li><a href="promo.php">Promo</a></li>
 			<li><a href="best.php">Best Seller</a></li>
-			<li><a href="add.php">Barang saya</a></li>
-			<li><a href="akun.php">Account</a></li>
-			<li><a href="chat.php">eRation new</a></li>
+			<li><a href="add.php">My Things</a></li>
+			<li><a href="Account.php">Account</a></li>
+			<li><a href="chat.php">Chat</a></li>
 			<li><a class="active b" href="cart.php"><span class="glyphicon glyphicon-shopping-cart"></span></a></li>
 		<ul>
 	</div>
@@ -109,7 +109,7 @@ if (isset($_POST["submit"])) {
     <p><label for="nama_barang">Nama Barang : </label>
         <input type="text" name="nama_barang" id="nama_barang">
     </p>
-    <p><label for="harga">harga : </label>
+    <p><label for="harga">price : </label>
         <input type="text" name="harga" id="harga">
     </p>
     <p><input type="file" name="file_gambar" accept = ".jpg, .png, .gif"></p>
@@ -120,7 +120,7 @@ if (isset($_POST["submit"])) {
 
 </div>
 <div class="footer">
-<p>&copy; 2017 |  Theme by William </p>
+<p>&copy; 2018 |  eRation </p>
 </div>
 </body>
 </html>

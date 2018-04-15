@@ -2,8 +2,8 @@
 if (isset($_GET["pesan"])) {
   $pesan = $_GET["pesan"];
 }
-if (isset($_POST["daftar"])) {
-  header("Location: daftar.php");
+if (isset($_POST["Signup"])) {
+  header("Location: Signup.php");
 }
 if (isset($_POST["submit"])) {
 
@@ -23,7 +23,7 @@ if (isset($_POST["submit"])) {
   $username = mysqli_real_escape_string($connectdb, $username);
   $password = mysqli_real_escape_string($connectdb, $password);
 
-  $query = "SELECT * FROM akun WHERE username = '$username' AND password = '$password'";
+  $query = "SELECT * FROM Account WHERE username = '$username' AND password = '$password'";
   $result = mysqli_query($connectdb, $query);
 
   if (mysqli_num_rows($result) == 0) {
@@ -49,7 +49,7 @@ else {
  ?>
 <html>
 <head>
-  <title>Amajon.com</title>
+  <title>eRation</title>
   <link rel="stylesheet" type="text/css" href="amajoncss.css">
   <style>
 
@@ -114,13 +114,13 @@ else {
 <body>
   <div class="header"></div>
   <div class="mid">
-  <h2 style="text-align:center; background-color:black; color:white;"> Selamat Datang di Amajon.com ! </h2>
+  <h2 style="text-align:center; background-color:black; color:white;"> Selamat Datang di eRation ! </h2>
   <?php
     if ($pesan_error != "") {
       echo "<div style=\"text-align:center\" class=\"error\">$pesan_error</div>";
     }
    ?>
-   <h2 style="text-align:center">Halaman Daftar</h2>
+   <h2 style="text-align:center">Halaman Signup</h2>
    <center>
    <div style="width:500px">
    <form action="login.php" method="post" style="border:1px solid #ccc">
@@ -133,7 +133,7 @@ else {
 
 
        <div class="clearfix">
-         <button name="daftar" type="submit" value="daftar" class="cancelbtn">Daftar Sekarang</button>
+         <button name="Signup" type="submit" value="Signup" class="cancelbtn">Signup Sekarang</button>
          <button name="submit" value="submit" type="submit" class="signupbtn">Log In</button>
        </div>
      </div>

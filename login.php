@@ -114,13 +114,13 @@ else {
 <body>
   <div class="header"></div>
   <div class="mid">
-  <h2 style="text-align:center; background-color:black; color:white;"> Selamat Datang di eRation ! </h2>
+  <h2 style="text-align:center; background-color:black; color:white;"> Welcome to eRation! </h2>
   <?php
     if ($pesan_error != "") {
       echo "<div style=\"text-align:center\" class=\"error\">$pesan_error</div>";
     }
    ?>
-   <h2 style="text-align:center">Halaman Signup</h2>
+   <h2 style="text-align:center">Signup</h2>
    <center>
    <div style="width:500px">
    <form action="login.php" method="post" style="border:1px solid #ccc">
@@ -133,12 +133,12 @@ else {
 
 
        <div class="clearfix">
-         <button name="Signup" type="submit" value="Signup" class="cancelbtn">Signup Sekarang</button>
+         <button name="Signup" type="submit" value="Signup" class="cancelbtn">Signup</button>
          <button name="submit" value="submit" type="submit" class="signupbtn">Log In</button>
        </div>
      </div>
    </form>
    </div>
-  <div class="footer">&copy; Copyright William </div>
+  <div class="footer">&copy; Copyright eRation </div>
 </body>
 </html>

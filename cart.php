@@ -87,7 +87,7 @@ $sum = 0;
 <div class="layout1">
 	<div class="navbar">
 		<ul>
-			<li><a class="active" href="amajon.php">Home</a></li>
+			<li><a class="active" href="home.php">Home</a></li>
 			<li><a href="promo.php">Promo</a></li>
 			<li><a href="best.php">Best Seller</a></li>
 			<li><a href="add.php">my Things</a></li>

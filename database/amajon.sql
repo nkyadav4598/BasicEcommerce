@@ -61,12 +61,12 @@ CREATE TABLE `best` (
 
 INSERT INTO `best` (`num`, `nama`, `harga`, `link`) VALUES
 (1, 'Toystoryy', 200000, 'best1.jpg'),
-(2, 'SepatuFairytaill', 350000, 'best2.jpg'),
+(2, 'BeveragesFairytaill', 350000, 'best2.jpg'),
 (3, 'AmericanBalll', 6300000, 'best3.png'),
 (4, 'KursiiMaroon', 5350000, 'best4.jpg'),
 (5, 'KurrsiKayu', 257000, 'best5.png'),
 (6, 'HighHeelHitam', 1500000, 'best6.jpg'),
-(7, 'SepatuSportAdidas', 500000, 'best7.jpeg'),
+(7, 'BeveragesSportAdidas', 500000, 'best7.jpeg'),
 (8, 'BolaWorldCup2014', 450000, 'best8.jpg'),
 (9, 'DCSuperHero', 50000, 'best9.jpg'),
 (10, 'SkyLander', 450000, 'best10.jpg'),
@@ -305,10 +305,10 @@ INSERT INTO `promo` (`num`, `nama`, `harga`, `link`) VALUES
 -- --------------------------------------------------------
 
 --
--- Table structure for table `sepatu`
+-- Table structure for table `Beverages`
 --
 
-CREATE TABLE `sepatu` (
+CREATE TABLE `Beverages` (
   `num` int(11) NOT NULL,
   `nama` varchar(50) DEFAULT NULL,
   `harga` bigint(20) DEFAULT NULL,
@@ -316,18 +316,18 @@ CREATE TABLE `sepatu` (
 ) ENGINE=InnoDB DEFAULT CHARSET=latin1;
 
 --
--- Dumping data for table `sepatu`
+-- Dumping data for table `Beverages`
 --
 
-INSERT INTO `sepatu` (`num`, `nama`, `harga`, `link`) VALUES
-(1, 'SepatuHitamPutih', 157000, 'sepatu1.jpg'),
-(2, 'SepatuFairytail', 350000, 'sepatu2.jpg'),
-(3, 'SepatuPolos', 121000, 'sepatu3.jpg'),
-(4, 'SepatuDC', 178000, 'sepatu4.jpg'),
-(5, 'HighHeel', 1300000, 'sepatu5.jpg'),
-(6, 'HighHeelHitam', 1500000, 'sepatu6.jpg'),
-(7, 'SepatuSportAdidas', 500000, 'sepatu7.jpeg'),
-(8, 'SepatuAirJordan', 405000, 'sepatu8.jpg');
+INSERT INTO `Beverages` (`num`, `nama`, `harga`, `link`) VALUES
+(1, 'BeveragesHitamPutih', 157000, 'Beverages1.jpg'),
+(2, 'BeveragesFairytail', 350000, 'Beverages2.jpg'),
+(3, 'BeveragesPolos', 121000, 'Beverages3.jpg'),
+(4, 'BeveragesDC', 178000, 'Beverages4.jpg'),
+(5, 'HighHeel', 1300000, 'Beverages5.jpg'),
+(6, 'HighHeelHitam', 1500000, 'Beverages6.jpg'),
+(7, 'BeveragesSportAdidas', 500000, 'Beverages7.jpeg'),
+(8, 'BeveragesAirJordan', 405000, 'Beverages8.jpg');
 
 -- --------------------------------------------------------
 
@@ -419,9 +419,9 @@ ALTER TABLE `promo`
   ADD PRIMARY KEY (`num`);
 
 --
--- Indexes for table `sepatu`
+-- Indexes for table `Beverages`
 --
-ALTER TABLE `sepatu`
+ALTER TABLE `Beverages`
   ADD PRIMARY KEY (`num`);
 
 --
@@ -475,9 +475,9 @@ ALTER TABLE `phone`
 ALTER TABLE `promo`
   MODIFY `num` int(11) NOT NULL AUTO_INCREMENT, AUTO_INCREMENT=12;
 --
--- AUTO_INCREMENT for table `sepatu`
+-- AUTO_INCREMENT for table `Beverages`
 --
-ALTER TABLE `sepatu`
+ALTER TABLE `Beverages`
   MODIFY `num` int(11) NOT NULL AUTO_INCREMENT, AUTO_INCREMENT=9;
 --
 -- AUTO_INCREMENT for table `sport`

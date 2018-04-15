@@ -42,9 +42,9 @@ if(!isset($usr)) header("Location: login.php");
   	<p>Rates as per government</p>
   	<form action="tampil.php" role="form" method="post" class="form-inline" >
   		<div class="input-group">
-  			<input name="nama" type="name" class="form-control" placeholder="Cari barangnya disini gan" size="50">
+  			<input name="nama" type="name" class="form-control" placeholder="Search" size="50">
   		<div class="input-group-btn">
-  			<button class="btn btn-danger" type="submit" name="submit" value="submit">Cari</button>
+  			<button class="btn btn-danger" type="submit" name="submit" value="submit">Search</button>
   		</div>
   		</div>
     </form>
@@ -64,7 +64,7 @@ if(!isset($usr)) header("Location: login.php");
 
 	<div class="navbar">
 		<ul>
-			<li><a class="active" href="amajon.php">Home</a></li>
+			<li><a class="active" href="home.php">Home</a></li>
 			<li><a href="promo.php">Promo</a></li>
 			<li><a href="#">Best Seller</a></li>
 			<li><a href="add.php">My Things</a></li>
@@ -82,7 +82,7 @@ if(!isset($usr)) header("Location: login.php");
       <p>yang sekarang memfokuskan kesehariannya untuk berjualan online. <?php echo $usr; ?> merupakan salah satu penjual terlaris di eRation</p>
       <div class="kanan">
         <h2>Toko <?php echo $usr; ?></h2>
-        <p>Toko pakaian terbesar di Indonesia </p>
+        <p>Toko Home terbesar di Indonesia </p>
       </div>
     </div>
 

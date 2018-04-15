@@ -37,7 +37,7 @@ if (isset($_POST["submit"])) {
   if ($pesan_error == "") {
     session_start();
     $_SESSION["username"] = $username;
-    header("Location: amajon.php");
+    header("Location: home.php");
   }
 }
 else {

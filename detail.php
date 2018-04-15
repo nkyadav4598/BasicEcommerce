@@ -26,7 +26,7 @@ include("session.php");
   	<p>Rates as per government</p>
   	<form action="tampil.php" role="form" method="post" class="form-inline" >
   		<div class="input-group">
-  			<input name="nama" type="name" class="form-control" placeholder="Cari barangnya disini gan" size="50">
+  			<input name="nama" type="name" class="form-control" placeholder="Search" size="50">
   		<div class="input-group-btn">
   			<button class="btn btn-danger" type="submit" name="submit" value="submit">Search</button>
   		</div>

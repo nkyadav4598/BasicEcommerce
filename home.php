@@ -35,9 +35,9 @@ $result = mysqli_query($connectdb, $query);
           <p style='text-align:center; display:inline-block' onclick='keSignup()'>&nbsp; Signup</p>";
       }
       else {
-          echo "<p style='text-align:center; display:inline-block'>Selamat Datang ";
+          echo "<p style='text-align:center; display:inline-block'>Welcome ";
           echo $usr;
-          echo "!&nbsp; |</p><p style='text-align:center; display:inline-block' onclick='kelogout()'>&nbsp; Keluar</p>";
+          echo "!&nbsp; |</p><p style='text-align:center; display:inline-block' onclick='kelogout()'>&nbsp;Logout</p>";
       }
       ?>
   	</div>

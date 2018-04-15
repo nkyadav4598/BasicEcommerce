@@ -72,7 +72,7 @@ if (isset($_POST["cart"])) {
           <p style='text-align:center; display:inline-block' onclick='keSignip()'>&nbsp; Signup</p>";
       }
       else {
-          echo "<p style='text-align:center; display:inline-block'>Selamat Datang ";
+          echo "<p style='text-align:center; display:inline-block'>Welcome ";
           echo $usr;
           echo "!&nbsp; |</p><p style='text-align:center; display:inline-block' onclick='kelogout()'>&nbsp; Exit</p>";
       }

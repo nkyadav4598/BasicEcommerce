@@ -69,12 +69,12 @@ if (isset($_POST["cart"])) {
       <?php
       if (!isset($_SESSION["username"])) {
           echo "<p style='text-align:center; display:inline-block' onclick='kelogin()'>Login &nbsp; |</p>
-          <p style='text-align:center; display:inline-block' onclick='kedaftar()'>&nbsp; Daftar</p>";
+          <p style='text-align:center; display:inline-block' onclick='keSignip()'>&nbsp; Signup</p>";
       }
       else {
           echo "<p style='text-align:center; display:inline-block'>Selamat Datang ";
           echo $usr;
-          echo "!&nbsp; |</p><p style='text-align:center; display:inline-block' onclick='kelogout()'>&nbsp; Keluar</p>";
+          echo "!&nbsp; |</p><p style='text-align:center; display:inline-block' onclick='kelogout()'>&nbsp; Exit</p>";
       }
       ?>
     </div>

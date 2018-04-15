@@ -86,7 +86,7 @@ while ($data = mysqli_fetch_assoc($result)) {
       <input  type="hidden" name="nama" value="<?php echo $data["nama"]; ?>"></input>
         <input  type="hidden" name="harga" value="<?php echo $data["harga"]; ?>"></input>
           <input  type="hidden" name="link" value="<?php echo $data["link"]; ?>"></input>
-    <input title="tombol" type="submit" name="cart" value="Beli Sekarang Juga "></input>
+    <input title="tombol" type="submit" name="cart" value="Buy Now"></input>
     <span class="tag">New</span>
   </div>
 </form>

@@ -77,13 +77,9 @@ if(!isset($usr)) header("Location: login.php");
 <div class="content2">
     <div class="kiri">
       <img src="img/owner.jpeg" style="width:300px; height:300px">
-      <?php echo "<h2> Tentang "; echo $usr; echo "</h2>"; ?>
-      <p>Toko bersama merupakan salah satu toko online yang berada di eRation. Toko bersama dimiliki oleh <?php echo $usr; ?> </p>
-      <p>yang sekarang memfokuskan kesehariannya untuk berjualan online. <?php echo $usr; ?> merupakan salah satu penjual terlaris di eRation</p>
-      <div class="kanan">
-        <h2>Toko <?php echo $usr; ?></h2>
-        <p>Toko Home terbesar di Indonesia </p>
-      </div>
+      <?php echo "<h2> About "; echo $usr; echo "</h2>"; ?>
+      
+      
     </div>
 
     <div class="clearfix"></div>

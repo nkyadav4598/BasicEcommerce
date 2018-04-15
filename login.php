@@ -12,10 +12,10 @@ if (isset($_POST["submit"])) {
 
   $pesan_error = "";
   if (empty($username)) {
-    $pesan_error .= "Username wajib diisi <br>";
+    $pesan_error .= "Username required <br>";
   }
   if (empty($password)) {
-    $pesan_error .= "Password wajib diisi <br>";
+    $pesan_error .= "Password required <br>";
   }
 
   include ("connect.php");
@@ -27,7 +27,7 @@ if (isset($_POST["submit"])) {
   $result = mysqli_query($connectdb, $query);
 
   if (mysqli_num_rows($result) == 0) {
-    $pesan_error .= "Username atau Password salah <br>";
+    $pesan_error .= "Username or Password wrong <br>";
   }
 
 

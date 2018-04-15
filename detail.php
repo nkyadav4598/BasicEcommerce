@@ -10,7 +10,7 @@ include("session.php");
 <html>
 <head>
 <script type="text/javascript" src="amajon.js"></script>
-<title>Amajon</title>
+<title>eRation</title>
 <meta charset="UTF-8">
 <meta name="viewport" content="width=device-width , initial-scale= 1">
 <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
@@ -22,13 +22,13 @@ include("session.php");
 <div class="container-fluid">
 
   <div class="jumbotron">
-  	<h1> Amajon.com</h1>
-  	<p>Tempat Jual Beli Aman dan Terpercaya</p>
+  	<h1> eRation</h1>
+  	<p>Rates as per government</p>
   	<form action="tampil.php" role="form" method="post" class="form-inline" >
   		<div class="input-group">
   			<input name="nama" type="name" class="form-control" placeholder="Cari barangnya disini gan" size="50">
   		<div class="input-group-btn">
-  			<button class="btn btn-danger" type="submit" name="submit" value="submit">Cari</button>
+  			<button class="btn btn-danger" type="submit" name="submit" value="submit">Search</button>
   		</div>
   		</div>
     </form>
@@ -61,7 +61,7 @@ include("session.php");
       </tr>
       <tr >
         <td>Description : <br>
-          <?php echo $nama; ?> dijual seharga Rp. <?php echo $harga; ?> menggunakan platform amajon.com.
+          <?php echo $nama; ?> sold <?php echo $harga; ?>using eRation
         </td>
       </tr>
     </table>
@@ -76,7 +76,7 @@ include("session.php");
   		<a href="#">3</a>
   		<a href="#">&raquo;</a>
   	</div>
-  	<p>&copy; 2017 |  Theme by William </p>
+  	<p>&copy; 2018 |  eRation</p>
   </div>
   </body>
   </html>

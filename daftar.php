@@ -78,7 +78,7 @@ button {
 </style>
 <body>
 
-<h2 style="text-align:center">Halaman Daftar</h2>
+<h2 style="text-align:center">Register</h2>
 <center>
 <div style="width:500px">
 <form action="daftar.php" method="post" style="border:1px solid #ccc">
@@ -91,8 +91,8 @@ button {
 
 
     <div class="clearfix">
-      <button type="button" class="cancelbtn">Batal</button>
-      <button type="submit" class="signupbtn" name="daftar" value="daftar">Daftar Sekarang</button>
+      <button type="button" class="cancelbtn">Cancel</button>
+      <button type="submit" class="signupbtn" name="daftar" value="daftar">Singup</button>
     </div>
   </div>
 </form>

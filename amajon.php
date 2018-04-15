@@ -7,7 +7,7 @@ $result = mysqli_query($connectdb, $query);
 <html>
 <head>
   <script type="text/javascript" src="amajon.js"></script>
-<title>Amajon</title>
+<title>eRation</title>
 <meta charset="UTF-8">
 <meta name="viewport" content="width=device-width , initial-scale= 1">
 <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
@@ -19,13 +19,13 @@ $result = mysqli_query($connectdb, $query);
 <div class="container-fluid">
 
   <div class="jumbotron">
-  	<h1> Amajon.com</h1>
-  	<p>Tempat Jual Beli Aman dan Terpercaya</p>
+  	<h1> eRation</h1>
+  	<p>Rates as per government</p>
   	<form action="tampil.php" role="form" method="post" class="form-inline" >
   		<div class="input-group">
   			<input name="nama" type="name" class="form-control" placeholder="Cari barangnya disini gan" size="50">
   		<div class="input-group-btn">
-  			<button class="btn btn-danger" type="submit" name="submit" value="submit">Cari</button>
+  			<button class="btn btn-danger" type="submit" name="submit" value="submit">Search</button>
   		</div>
   		</div>
     </form>
@@ -49,15 +49,15 @@ $result = mysqli_query($connectdb, $query);
 			<li><a class="active" href="amajon.php">Home</a></li>
 			<li><a href="promo.php">Promo</a></li>
 			<li><a href="best.php">Best Seller</a></li>
-			<li><a href="add.php">Barang saya</a></li>
-			<li><a href="akun.php">Akun</a></li>
-			<li><a href="chat.php">AmajonBOT</a></li>
+			<li><a href="add.php">My things</a></li>
+			<li><a href="akun.php">Account</a></li>
+			<li><a href="chat.php">Chat</a></li>
 			<li><a class="active b" href="cart.php"><span class="glyphicon glyphicon-shopping-cart"></span><span>&emsp;<b><?php echo "(".mysqli_num_rows($result) ." item)"; ?></b></span></a></li>
 		<ul>
 	</div>
 	<div class="sidebar">
 		<ul>
-			<li><a class="active">Kategori</a></li>
+			<li><a class="active">Category</a></li>
       <li><a href="amajon.php">Pakaian</a></li>
 			<li><a href="phone.php">Gadget dan Komputer</a></li>
 			<li><a href="perabot.php">Furniture</a></li>
@@ -113,7 +113,7 @@ while ($data = mysqli_fetch_assoc($result)) {
 		<a href="#">3</a>
 		<a href="#">&raquo;</a>
 	</div>
-	<p>&copy; 2017 |  Theme by William </p>
+	<p>&copy; 2018 |  eRation </p>
 </div>
 </body>
 </html>

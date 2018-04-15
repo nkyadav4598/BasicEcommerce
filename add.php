@@ -51,7 +51,7 @@ if (isset($_POST["submit"])) {
 ?>
 <html>
 <head>
-<title>Amajon</title>
+<title>eRation</title>
 <meta charset="UTF-8">
 <meta name="viewport" content="width=device-width , initial-scale= 1">
 <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
@@ -66,7 +66,7 @@ if (isset($_POST["submit"])) {
 <div class="container-fluid">
 
   <div class="jumbotron">
-  	<h1> Amajon.com</h1>
+  	<h1> eRation </h1>
   	<p>Tempat Jual Beli Aman dan Terpercaya</p>
   	<form action="tampil.php" role="form" method="post" class="form-inline" >
   		<div class="input-group">
@@ -95,8 +95,8 @@ if (isset($_POST["submit"])) {
 			<li><a href="promo.php">Promo</a></li>
 			<li><a href="best.php">Best Seller</a></li>
 			<li><a href="add.php">Barang saya</a></li>
-			<li><a href="akun.php">Akun</a></li>
-			<li><a href="chat.php">AmajonBOT</a></li>
+			<li><a href="akun.php">Account</a></li>
+			<li><a href="chat.php">eRation new</a></li>
 			<li><a class="active b" href="cart.php"><span class="glyphicon glyphicon-shopping-cart"></span></a></li>
 		<ul>
 	</div>

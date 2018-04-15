@@ -23,7 +23,7 @@ if (isset($_POST["cart"])) {
 <html>
 <head>
   <script type="text/javascript" src="amajon.js"></script>
-<title>Amajon</title>
+<title>eRation</title>
 <meta charset="UTF-8">
 <meta name="viewport" content="width=device-width , initial-scale= 1">
 <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
@@ -56,8 +56,8 @@ if (isset($_POST["cart"])) {
 <div class="container-fluid">
 
   <div class="jumbotron">
-    <h1> Amajon.com</h1>
-    <p>Tempat Jual Beli Aman dan Terpercaya</p>
+    <h1> eRation</h1>
+    <p>Rates as per government</p>
     <form action="tampil.php" role="form" method="post" class="form-inline" >
       <div class="input-group">
         <input name="nama" type="name" class="form-control" placeholder="Cari barangnya disini gan" size="50">
@@ -100,9 +100,9 @@ $sum = 0;
     <center>
     <table class="table table-striped">
       <tr style="color:white; background-color:#f4511e;">
-        <th>Gambar</th>
-        <th>Nama Barang</th>
-        <th>Harga</th>
+        <th>Image</th>
+        <th>Item</th>
+        <th>Price</th>
         <th></th>
       </tr>
       <?php
@@ -126,7 +126,7 @@ $sum = 0;
     }
     ?>
     <tr>
-      <td>Total Barang dan Total Harga</td>
+      <td>Total Price</td>
       <td><?php echo mysqli_num_rows($result); ?></td>
       <td>Rp. <?php echo number_format($sum, 2); ?></td>
       <td></td>
@@ -139,7 +139,7 @@ $sum = 0;
 
   <div class="clearfix"></div>
   <div class="footer">
-    <p>&copy; 2017 |  Theme by William </p>
+    <p>&copy; 2018 |  eRation </p>
   </div>
   </body>
   </html>

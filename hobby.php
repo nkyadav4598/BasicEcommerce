@@ -5,7 +5,7 @@ include("session.php");
 <html>
 <head>
   <script type="text/javascript" src="amajon.js"></script>
-<title>Amajon</title>
+<title>eRarion</title>
 <meta charset="UTF-8">
 <meta name="viewport" content="width=device-width , initial-scale= 1">
 <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">

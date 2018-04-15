@@ -24,7 +24,7 @@ if (isset($_POST["submit"])) {
 <html>
 <head>
   <script type="text/javascript" src="amajon.js"></script>
-<title>Amajon</title>
+<title>eRation</title>
 <meta charset="UTF-8">
 <meta name="viewport" content="width=device-width , initial-scale= 1">
 <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
@@ -36,8 +36,8 @@ if (isset($_POST["submit"])) {
 <div class="container-fluid">
 
   <div class="jumbotron">
-  	<h1> Amajon.com</h1>
-  	<p>Tempat Jual Beli Aman dan Terpercaya</p>
+  	<h1> eRation</h1>
+  	<p>Rates as per government</p>
   	<form action="tampil.php" role="form" method="post" class="form-inline" >
   		<div class="input-group">
   			<input name="nama" type="name" class="form-control" placeholder="Cari barangnya disini gan" size="50">
@@ -94,7 +94,7 @@ if (isset($_POST["submit"])) {
   		<a href="#">3</a>
   		<a href="#">&raquo;</a>
   	</div>
-  	<p>&copy; 2017 |  Theme by William </p>
+  	<p>&copy; 2018 |  eRation </p>
   </div>
   </body>
   </html>

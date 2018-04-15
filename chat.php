@@ -71,7 +71,7 @@ if (isset($_POST["submit"])) {
   $cnt = count(mysqli_fetch_assoc($result));
   while ($data = mysqli_fetch_assoc($result)) {
     echo "<div><tr style='background-color:white;height:100px;";
-    if ($cnt % 2 == 0) {echo "color:red;";   echo "'><td><b>Amajon BOT : "; }
+    if ($cnt % 2 == 0) {echo "color:red;";   echo "'><td><b>Chat BOT : "; }
     else if ($cnt % 2 == 1) {echo "color:orange;"; echo "'><td><b>"; echo "$us : "; }
     echo $data["chat"];
     echo "</b></td></tr></div>";
@@ -81,10 +81,10 @@ if (isset($_POST["submit"])) {
   </table>
   </div>
   <hr>
-  <center><h3>Komentar : </h3></center>
+  <center><h3>Comments: </h3></center>
   <form name="form1" action="chat.php" method="post">
-  <center><textarea cols="160" rows="7" name="textarea1" value="Ketik komentar disini..."></textarea></center>
-  <center><input style="width:100px; height:70px; background-color:orange; color:white;" type="submit" name="submit" value="Kirim"></input></center>
+  <center><textarea cols="160" rows="7" name="textarea1" value="Type a comment here ..."></textarea></center>
+  <center><input style="width:100px; height:70px; background-color:orange; color:white;" type="submit" name="submit" value="Send"></input></center>
 </form>
   <div class="footer">
   	<div class="pagination">

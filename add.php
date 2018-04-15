@@ -103,10 +103,10 @@ if (isset($_POST["submit"])) {
 
 <div class="content2">
 
-    <h1>Masukkan Barang </h1>
-    <p>NB : Barang akan masuk pada kategori Promo </p>
+    <h1>Insert Items </h1>
+    <p>NB: Item will enter in Promo category </p>
     <form action="add.php" method="post" enctype="multipart/form-data">
-    <p><label for="nama_barang">Nama Barang : </label>
+    <p><label for="nama_barang">Name of goods : </label>
         <input type="text" name="nama_barang" id="nama_barang">
     </p>
     <p><label for="harga">price : </label>

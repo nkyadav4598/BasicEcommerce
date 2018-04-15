@@ -1,7 +1,7 @@
 <?php
 $dbhost = "localhost";
 $dbuser = "root";
-$dbpass = "";
+$dbpass = "hello";
 $dbname = "amajon";
 $connectdb = mysqli_connect($dbhost, $dbuser, $dbpass, $dbname);
 if (!$connectdb) {

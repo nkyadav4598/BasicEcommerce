@@ -50,9 +50,7 @@ if(!isset($usr)) header("Location: login.php");
     </form>
       <?php
       if (!isset($_SESSION["username"])) {
-          echo "<p style='text-align:center; display:inline-block' onclick='kelogin()'>Login &nbsp; |</p>
-          <p style='text-align:center; display:inline-block' onclick='keSignup()'>&nbsp; Signup</p>";
-      }
+          echo "<p style='text-align:center; display:inline-block' onclick='kelogin()'>Login &nbsp; |</p>;      }
       else {
           echo "<p style='text-align:center; display:inline-block'>Welcome ";
           echo $usr;

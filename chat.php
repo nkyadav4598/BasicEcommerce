@@ -18,7 +18,7 @@ if (isset($_POST["submit"])) {
   else if ($_POST["textarea1"] == "oi" || $_POST["textarea1"] == "gan" || $_POST["textarea1"] == "bot" || $_POST["textarea1"] == "amajon" || $_POST["textarea1"] == "woi") {
     $query = "INSERT INTO chat VALUES('kenapa manggil-manggil ? ')";
   }
-  $result = mysqli_query($connectdb, $query);
+  //$result = mysqli_query($connectdb, $query);
 }
  ?>
 <html>
@@ -58,7 +58,7 @@ if (isset($_POST["submit"])) {
   	</div>
   </div>
   <hr>
-  <center><h3>Chat Box</h3></center>
+  <center><h3>Feedback</h3></center>
   <div style="background-color:#e5e7e8">
     <table align="center" style="font-size:30px;width:1100px; height:50px;" class="table table-bordered">
     <?php

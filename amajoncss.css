@@ -72,7 +72,7 @@ li a:hover:not(.active) {
 	float:left;
 }
 .clearfix {
-	clear:right;
+	clear:center;
 }
 .isi {
 	width:400px;

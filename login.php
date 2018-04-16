@@ -132,7 +132,7 @@ else {
        <input type="password" placeholder="Enter Password" name="password" value="<?php echo $password; ?>" >
 
 
-       <div >
+       <div class="clearfix" >
          <button name="submit" value="submit" type="submit" class="signupbtn">Log In</button>
        </div>
      </div>

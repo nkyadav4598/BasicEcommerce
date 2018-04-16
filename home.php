@@ -31,7 +31,7 @@ $result = mysqli_query($connectdb, $query);
     </form>
       <?php
       if (!isset($_SESSION["username"])) {
-          echo "<p style='text-align:center; display:inline-block' onclick='kelogin()'>Login &nbsp; </p>;      }
+          echo "<p style='text-align:center; display:inline-block' onclick='kelogin()'>Login &nbsp; </p>;      }"
       else {
           echo "<p style='text-align:center; display:inline-block'>Welcome ";
           echo $usr;

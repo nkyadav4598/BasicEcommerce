@@ -133,7 +133,6 @@ else {
 
 
        <div class="clearfix">
-         <button name="Signup" type="submit" value="Signup" class="cancelbtn">Signup</button>
          <button name="submit" value="submit" type="submit" class="signupbtn">Log In</button>
        </div>
      </div>
